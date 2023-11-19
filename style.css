@@ -1,0 +1,240 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: poppins;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #0F1624;
+    padding: 20px;
+    /* position: fixed; */
+    gap: 10%;
+    width: 100%;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 10px;
+    /* margin-right: 795px; */
+}
+.logo img{
+    width: 25%;
+}
+.logo p{
+    font-weight: 400;
+}
+.nav-links ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-decoration: none;
+    position: relative;
+    top: 5%;
+    gap: 30px;
+    width: 30%;
+    margin-right: 600px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: white;
+}
+.nav-links {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.logos ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-decoration: none;
+    position: relative;
+    top: 5%;
+    right: 40%;
+    gap: 16px;
+}
+.logos img{
+    width: 20px;
+}
+.hero {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column: 1/1;
+    align-content: center;
+    justify-content: center;
+    gap: 17%;
+    background-color: #0F1624;
+    padding: 80px;
+    padding-top: 10%;
+    /*
+    padding-left: 50px;
+    padding-bottom: 30px; */
+    height: 95vh;
+}
+.head-text {
+    color: white;
+    flex-direction: column;
+}
+.head-text .p1 p{
+    width: 450px;
+    font-size: 20px;
+}
+.box-1{
+    background-color:#ECE7E745 ;
+    width:350px ;
+    height: 350px;
+    position: relative;
+    bottom: 30px;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-content: end;
+    align-items: end; */
+    /* grid-template-columns:repeat(12,1fr);
+    justify-self: end;
+    align-items: end;
+    align-content: end; */
+}
+button {
+  color: white;
+  background-color: #0469E0;
+  padding-top:10px ;
+  padding-bottom:10px ;
+  padding-right:40px ;
+  padding-left:40px ;
+  border-radius: 26px;
+  border: 1px solid #0469E0;
+}
+.second-section{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    /* gap: 17%; */
+    padding: 80px;
+    padding-top: 10%;
+}
+.about-text{
+    margin-left: 60px;
+}
+.second-section .p2 p{
+    width:75%;
+    font-size: 18px;
+    color: #797979;
+    font-weight: 600;
+}
+.draw img{
+    width:560px;
+    height:600px;
+    position: relative;
+    left: 14%;
+    bottom: 17%;
+}
+.box-2 img{
+    width:98% ;
+    height:98% ;
+    border-radius: 6px;
+}
+.text-area p{
+    width: 97%;
+    font-weight: 500;
+    font-size: 12px;
+}
+.box-2{
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 17px;
+    background-color: #0F1624;
+    width: 17%;
+    height: 17%;
+    color: white;
+    padding: 10px;
+}
+.box-row-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    gap: 9%;
+}
+.btn button{
+    color: black;
+  background-color: white;
+  margin-top: 10px;
+  padding-top:10px ;
+  padding-bottom:10px ;
+  padding-right:20px ;
+  padding-left:20px ;
+  border-radius: 26px;
+  border: 1px solid white;
+}
+.box-text1 p{
+    text-align: center;
+}
+hr{
+    position: relative;
+    left: 40px;
+    width: 135px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+.box-row-2{
+    display: flex;
+    margin-top: 3%;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    gap: 9%;
+}
+.third-section h1{
+   position: relative;
+   bottom: 50px;
+   margin-left: 80px;
+   font-size: 45px;
+}
+.fourth-section{
+    margin-top: 6%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25%;
+}
+.first-row ul li {
+    margin: 15px;
+}
+.second-row ul li{
+    margin:15px ;
+}
+.third-row ul li{
+    margin: 15px;
+}
+.none{
+    display: none;
+}
+.skills{
+    position: relative;
+    margin-top: 50px;
+    margin-left: 80px;
+    font-size: 25px;
+}
+footer{
+    background-color: #F6F4F4;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
